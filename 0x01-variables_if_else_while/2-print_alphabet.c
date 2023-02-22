@@ -19,8 +19,6 @@ int main(void)
 	{
 		printf("Last digit of %d is %d and is 0\n", n, last);
 	}
-	putchar('\n');
-	return(0);
 	else
 	{
 		if (last > 5)
