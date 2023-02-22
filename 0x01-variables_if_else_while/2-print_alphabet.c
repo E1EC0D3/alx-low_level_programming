@@ -1,19 +1,13 @@
 #include <stdio.h>
-#include <ctype.h>
 #include <stdlib.h>
 #include <time.h>
 /**
-*main - Program to print alphabet letter followed by new line
 *main - Prints the last digit of random number
 *
-*Return: return 0
 *Return: Return 0
 */
 int main(void)
 {
-	int letter;
-
-	for (letter = 'a'; letter <= 'z'; letter++)
 	int n;
 	int last;
 
@@ -23,8 +17,6 @@ int main(void)
 
 	if (last == 0)
 	{
-		letter = tolower(letter);
-		putchar(letter);
 		printf("Last digit of %d is %d and is 0\n", n, last);
 	}
 	putchar('\n');
@@ -41,3 +33,4 @@ int main(void)
 		}
 	}
 	return (0);
+}
