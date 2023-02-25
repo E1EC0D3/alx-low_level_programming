@@ -1,4 +1,4 @@
-#include "main.h"
+#include <"main.h">
 #include <unistd.h>
 
 /**
@@ -7,7 +7,7 @@
  *
 */
 
-print_alphabet(void)
+int print_alphabet(void)
 {
 	char c = 'a';
 
