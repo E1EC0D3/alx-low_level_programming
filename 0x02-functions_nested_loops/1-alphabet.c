@@ -4,10 +4,9 @@
 /**
  * print_alphabet - Entry point
  * Return:0
- *
-*/
+ */
 
-int print_alphabet(void)
+void print_alphabet(void)
 {
 	char c = 'a';
 
@@ -17,6 +16,6 @@ int print_alphabet(void)
 		c++;
 
 	}
-	_putchar('\n');	
+	_putchar('\n');
 
 }
