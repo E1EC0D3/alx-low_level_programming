@@ -6,9 +6,11 @@
  * Description: Print alphabet in lowercase
  * Return: Point of No return
  */
+
 void print_alphabet(void)
 {
 	char letter = 'a';
+
 	while (letter <= 'z')
 	{
 		_putchar(letter);
