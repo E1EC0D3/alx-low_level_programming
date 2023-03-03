@@ -1,15 +1,19 @@
 #include "main.h"
+#include <stdio.h>
+#include <unistd.h>
 /**
-*print_alphabet - Prints alphabets
-*Return: 0
-*/
+ * print_alphabet - Entry point
+ * Description: Print alphabet in lowercase
+ * Return: Point of No return
+ */
 void print_alphabet(void)
 {
-	char n;
-	for (n = 'a' ; n <= 'z' ; n++)
+	char letter = 'a';
+
+	while (letter <= 'z')
 	{
-	_putchar(n);
+		_putchar(letter);
+		letter++;
 	}
 	_putchar('\n');
-	return;
 }
